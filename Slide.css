@@ -1,0 +1,43 @@
+body{
+    background-color:wheat;
+    margin: 0px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.slide-container{
+    position: relative;
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 200px 200px 200px rgb(red, green, blue);
+}
+
+.image-container{
+    display: flex;
+    transition:transform 0.4s ease-in-out;
+    width: 700px;
+    height: 450px; 
+}
+
+.btn{
+position: absolute;
+top: 50%;
+color: white;
+font-size: 30px;
+opacity: .5;
+}
+.right{
+    right: 10px;
+}
+
+.left{
+    left: 10px;
+}
+.btn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
